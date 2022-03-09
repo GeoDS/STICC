@@ -59,40 +59,45 @@ To reproduce the experiments in the paper, please check the three jupyter notebo
 
 
 #### Execute Python Code
-To perform STICC on your own dataset, please run the following code in python.
-Usage:
+To perform STICC on your own dataset, please run the following code in python.  
+
+Usage:  
     
-    ```
-    python STICC_main.py --fname=[input_data] --oname=[output_data] --attr_idx_start=[attr_idx_start] --attr_idx_end=[attr_idx_end] --spatial_idx_start=[spatial_idx_start] --spatial_idx_end=[spatial_idx_end] --spatial_radius=[spatial_radius] --number_of_clusters=[number_of_clusters] --lambda_parameter=[lambda_parameter] --beta=[beta] --maxIters=[maxIters]
-        ```
+```
+python STICC_main.py --fname=[input_data] --oname=[output_data] --attr_idx_start=[attr_idx_start] --attr_idx_end=[attr_idx_end] --spatial_idx_start=[spatial_idx_start] --spatial_idx_end=[spatial_idx_end] --spatial_radius=[spatial_radius] --number_of_clusters=[number_of_clusters] --lambda_parameter=[lambda_parameter] --beta=[beta] --maxIters=[maxIters]
+```
 
-        ```
-        --fname, input data name
-        --oname, output file name
-        --attr_idx_start, attribute start index
-        --attr_idx_end, attribute end index
-        --spatial_idx_start, neighboring object start index
-        --spatial_idx_end, neighboring object end index
-        --spatial_radius, radius of subregion
-        --number_of_clusters, number of clusters
-        --lambda_parameter, lambda
-        --beta, beta
-        --maxIters, maximum iterations
-        ```
 
-        Example:  
-        Perform STICC on the synthetic_data.txt with spatial radius=3 and beta=3.   
-        ```
-        python STICC_main.py --fname=synthetic_data.txt --oname=result_synthetic_data.txt --attr_idx_start=1 \
+```
+--fname, input data name
+--oname, output file name
+--attr_idx_start, attribute start index
+--attr_idx_end, attribute end index
+--spatial_idx_start, neighboring object start index
+--spatial_idx_end, neighboring object end index
+--spatial_radius, radius of subregion
+--number_of_clusters, number of clusters
+--lambda_parameter, lambda
+--beta, beta
+--maxIters, maximum iterations
+```
+
+
+Example:    
+Perform STICC on the synthetic_data.txt with spatial radius=3 and beta=3.     
+```
+python STICC_main.py --fname=synthetic_data.txt --oname=result_synthetic_data.txt --attr_idx_start=1 \
         --attr_idx_end=5 --spatial_idx_start=6 --spatial_idx_end=8 \
         --spatial_radius=3 --number_of_clusters 7 --lambda_parameter 0.01 --beta 3 --maxIters 20 
-            ```
+```
 
-If you meet the following error:  
-        ```
-        numpy.linalg.LinAlgError: Eigenvalues did not converge
-        ```
-A potential solution is to standardize your dataset.  
+
+If you meet the following error:   
+```
+numpy.linalg.LinAlgError: Eigenvalues did not converge
+```
+
+A potential solution is to standardize your dataset.    
 
 ## Folder Structure 
 The folders and files are organized as follows.   
