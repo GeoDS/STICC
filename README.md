@@ -27,7 +27,7 @@
 
 <!-- Citation -->
 ## Citation
-If you use this dataset in your research or applications, please cite this source:
+If you use this algorithm in your research or applications, please cite this source:
 
 Kang, Y., Wu, K., Gao, S., Ng, I., Rao, J., Ye, S., Zhang, F. and Fei, T. STICC: A multivariate spatial clustering method for repeated geographic pattern discovery with consideration of spatial contiguity. *International Journal of Geographical Information Science* (2022).
     
@@ -50,6 +50,9 @@ The general idea of the STICC algorithm is illustrated as follows:
     <img src="images/STICC.jpeg" alt="framework" >
 </p>
 
+
+The STICC algorithm is developed based on TICC algorithm:  
+D. Hallac, S. Vare, S. Boyd, and J. Leskovec Toeplitz Inverse Covariance-Based Clustering of Multivariate Time Series Data. *Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining* 215--223 (2017)
 
 ## Code Usage
 
@@ -135,8 +138,6 @@ Project Link: [https://github.com/GeoDS/STICC](https://github.com/GeoDS/STICC)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-The STICC algorithm is developed based on TICC algorithm:  
-D. Hallac, S. Vare, S. Boyd, and J. Leskovec Toeplitz Inverse Covariance-Based Clustering of Multivariate Time Series Data Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. 215--223  
 
 Code borrows from [TICC](https://github.com/davidhallac/TICC).
 
