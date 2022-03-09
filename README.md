@@ -53,6 +53,7 @@ The general idea of the STICC algorithm is illustrated as follows:
 
 The STICC algorithm is developed based on TICC algorithm:  
 D. Hallac, S. Vare, S. Boyd, and J. Leskovec Toeplitz Inverse Covariance-Based Clustering of Multivariate Time Series Data. *Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining* 215--223 (2017)
+GitHub: [TICC](https://github.com/davidhallac/TICC)
 
 ## Code Usage
 
