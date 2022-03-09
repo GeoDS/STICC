@@ -62,6 +62,17 @@ Environment: Python 3.7 or newer
 #### Experiment Reproduction
 To reproduce the experiments in the paper, please check the three jupyter notebooks: synthetic.ipynb, NYC_checkin.ipynb, NYC_checkin3.ipynb. All datasets have been uplodaded in the folder <em>data/</em>
 
+#### Input Data Structure
+The input data should be a .txt file with a .csv structure. The first column (column 0) indicates the unique identifier of the geographic object. The following columns indicate the attributes of the geographic object. The last several collumns indicate the nearest neighbors of the geographic object.    
+
+For instance, given the following two objects:  
+```
+0,4.471435163732493,2.158530256342078,96.54097808132826,1016.5109582462767,997.3221602361555,41,78,45   
+1,2.8090243052935353,2.1454885080772383,68.55061966023295,1701.5536144719163,1001.8594793592364,11,80,35   
+```
+
+Column 0 indicates the id of the object, columns 1-5 show attributes of geographic objects, columns 6-8 are nearest neighbors. For the object 0, its nearest neighbor is object 41, its second nearest neighbor is object 78, and its third nearest neighbor is object 45.
+
 
 #### Execute Python Code
 To perform STICC on your own dataset, please run the following code in python.  
