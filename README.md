@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -50,6 +50,7 @@ The general idea of the STICC algorithm is illustrated as follows:
     <img src="images/STICC.jpeg" alt="framework" >
 </p>
 
+
 ## Code Usage
 
 Environment: Python 3.7 or newer
@@ -64,7 +65,10 @@ To perform STICC on your own dataset, please run the following code in python.
 Usage:  
     
 ```
-python STICC_main.py --fname=[input_data] --oname=[output_data] --attr_idx_start=[attr_idx_start] --attr_idx_end=[attr_idx_end] --spatial_idx_start=[spatial_idx_start] --spatial_idx_end=[spatial_idx_end] --spatial_radius=[spatial_radius] --number_of_clusters=[number_of_clusters] --lambda_parameter=[lambda_parameter] --beta=[beta] --maxIters=[maxIters]
+python STICC_main.py --fname=[input_data] --oname=[output_data] \
+--attr_idx_start=[attr_idx_start] --attr_idx_end=[attr_idx_end] \
+--spatial_idx_start=[spatial_idx_start] --spatial_idx_end=[spatial_idx_end] --spatial_radius=[spatial_radius] \
+--number_of_clusters=[number_of_clusters] --lambda_parameter=[lambda_parameter] --beta=[beta] --maxIters=[maxIters]
 ```
 
 
@@ -86,9 +90,9 @@ python STICC_main.py --fname=[input_data] --oname=[output_data] --attr_idx_start
 Example:    
 Perform STICC on the synthetic_data.txt with spatial radius=3 and beta=3.     
 ```
-python STICC_main.py --fname=synthetic_data.txt --oname=result_synthetic_data.txt --attr_idx_start=1 \
-        --attr_idx_end=5 --spatial_idx_start=6 --spatial_idx_end=8 \
-        --spatial_radius=3 --number_of_clusters 7 --lambda_parameter 0.01 --beta 3 --maxIters 20 
+python STICC_main.py --fname=synthetic_data.txt --oname=result_synthetic_data.txt \
+--attr_idx_start=1 --attr_idx_end=5 --spatial_idx_start=6 --spatial_idx_end=8 \
+--spatial_radius=3 --number_of_clusters 7 --lambda_parameter 0.01 --beta 3 --maxIters 20 
 ```
 
 
@@ -131,7 +135,10 @@ Project Link: [https://github.com/GeoDS/STICC](https://github.com/GeoDS/STICC)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-Codes in this repository are modified from the [TICC project](https://github.com/davidhallac/TICC).
+The STICC algorithm is developed based on TICC algorithm:  
+D. Hallac, S. Vare, S. Boyd, and J. Leskovec Toeplitz Inverse Covariance-Based Clustering of Multivariate Time Series Data Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. 215--223  
+
+Code borrows from [TICC](https://github.com/davidhallac/TICC).
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
