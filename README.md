@@ -59,7 +59,8 @@ GitHub: [TICC](https://github.com/davidhallac/TICC)
 
 ## Code Usage
 
-Environment: Python 3.7 or newer
+Environment: Python 3.7 or newer  
+See <em>requirements.txt</em>
 
 #### Experiment Reproduction
 To reproduce the experiments in the paper, please check the three jupyter notebooks: synthetic.ipynb, NYC_checkin.ipynb, NYC_checkin3.ipynb. All datasets have been uplodaded in the folder <em>data/</em>
@@ -140,7 +141,7 @@ project
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the BSD License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
