@@ -29,7 +29,7 @@
 ## Citation
 If you use this algorithm in your research or applications, please cite this source:
 
-Kang, Y., Wu, K., Gao, S., Ng, I., Rao, J., Ye, S., Zhang, F. and Fei, T. STICC: A multivariate spatial clustering method for repeated geographic pattern discovery with consideration of spatial contiguity. *International Journal of Geographical Information Science* (2022). DOI:10.1080/13658816.2022.2053980.
+Kang, Y., Wu, K., Gao, S., Ng, I., Rao, J., Ye, S., Zhang, F. and Fei, T. [STICC: A multivariate spatial clustering method for repeated geographic pattern discovery with consideration of spatial contiguity](https://doi.org/10.1080/13658816.2022.2053980). *International Journal of Geographical Information Science* (2022). DOI:10.1080/13658816.2022.2053980.
     
 
 ```
