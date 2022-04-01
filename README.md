@@ -57,7 +57,7 @@ The general idea of the STICC algorithm is illustrated as follows:
 </p>
 
 
-The STICC algorithm is developed based on TICC algorithm:   
+The STICC algorithm is developed based on the TICC algorithm:   
 
 D. Hallac, S. Vare, S. Boyd, and J. Leskovec Toeplitz Inverse Covariance-Based Clustering of Multivariate Time Series Data. *Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining* 215--223 (2017)  
 
@@ -160,7 +160,7 @@ Project Link: [https://github.com/GeoDS/STICC](https://github.com/GeoDS/STICC)
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-Code borrows from [TICC](https://github.com/davidhallac/TICC).
+Code inherits from [TICC](https://github.com/davidhallac/TICC).
 
 Yuhao Kang acknowledges the support by the Trewartha Research Award, Department of the Geography, University of Wisconsin-Madison. Song Gao and Jinmeng Rao acknowledge the support by the American Family Insurance Data Science Institute at the University of Wisconsin-Madison and the National Science Foundation funded AI institute (Grant No.2112606) for Intelligent Cyberinfrastructure with Computational Learning in the Environment (ICICLE). Fan Zhang would like to thank the support by the National Natural Science Foundation of China under Grant 41901321. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the funders.
 
